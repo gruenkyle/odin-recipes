@@ -1,0 +1,39 @@
+
+
+/* Element Selectors This tells the page, look for all the p tags, and make them red*/
+
+h1 {
+    color : blue;
+}
+
+img {
+    height : 500px;
+    width : 500px; 
+}
+
+
+/* Class Selector every item that has the < __ class="class-items"> tag will have these properties*/
+
+.class_items {
+    color : gray;
+    font-style : italic; 
+    font-family :'Times New Roman', Times, serif; 
+    font-size : 24px; 
+}
+
+/*ID Selectors*/
+
+#my-name-selector{
+    color: blueviolet; 
+}
+
+#front-page-image{
+    height : 500px;
+    width : 400px
+}
+/*
+Element Selector - For all HTML Elements in the file 
+Class Selector - mulitple elements that need to have similar colors or properties
+ID Selector - just a once off item change 
+*/
+
